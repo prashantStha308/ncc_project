@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@config "../../tailwind.config.js";
+
+@theme{
+    --color-accentDark: #F7A5A5;
+    --color-accentLight: #FFDBB6;
+    --color-bgLight: #FFF2EF;
+    --color-textDark: #5D688A;
+}
+
+.nav-list-item {
+    @apply hover:bg-accentLight hover:text-textDark/55 active:bg-textDartext-textDark/55 active:text-white rounded-lg px-8 py-2 text-lg flex items-start transition-all ease-in-out duration-100 hover:font-semibold;
+}
