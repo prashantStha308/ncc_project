@@ -8,7 +8,7 @@
 
   <!-- Build tailwind before C# -->
   <Target Name="Tailwind" BeforeTargets="Build">
-    <Exec Command="npm run build-css"/>
+    <Exec Command="npm run build-css" />
   </Target>
 
 </Project>
