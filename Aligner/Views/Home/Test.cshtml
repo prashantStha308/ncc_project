@@ -1,0 +1,13 @@
+﻿@* @page *@
+@model Aligner.Views.Home.TestModel
+
+@{
+    ViewData["Title"] = "Test";
+}
+
+
+<section class="min-h-screen w-full flex justify-center items-center " >
+    <div class="m-auto" >
+        @await Html.PartialAsync("Components/_ListItem")
+    </div>
+</section>

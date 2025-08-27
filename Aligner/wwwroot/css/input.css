@@ -9,5 +9,6 @@
 }
 
 .nav-list-item {
-    @apply hover:bg-neutral-400 hover:text-accentDark active:bg-textDark/55 active:text-white rounded-lg px-8 py-2 text-lg flex items-start transition-all ease-in-out duration-100 hover:font-semibold;
+    @apply hover:bg-accentLight hover:text-accentDark active:bg-textDark/55 active:text-white rounded-lg px-8 py-2 text-lg flex items-start transition-all ease-in-out duration-100 hover:font-semibold;
 }
+

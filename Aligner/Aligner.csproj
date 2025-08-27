@@ -7,8 +7,8 @@
   </PropertyGroup>
 
   <!-- Build tailwind before C# -->
-  <Target Name="Tailwind" BeforeTargets="Build">
+  <!-- <Target Name="Tailwind" BeforeTargets="Build">
     <Exec Command="npm run build-css" />
-  </Target>
+  </Target> -->
 
 </Project>
